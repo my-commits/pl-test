@@ -20,3 +20,9 @@ One star for each platform:
 - Security and paradigm support: 3
 - Cross-platform and compatibility: 4
 ### Total - 13
+## C++
+- Ease of learning and community support: 2
+- Performance and scalability: 4
+- Security and paradigm support: 3
+- Cross-platform and compatibility: 4
+### Total - 13
