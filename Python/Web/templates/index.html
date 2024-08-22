@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Генератор случайных чисел</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .container { max-width: 400px; margin: 100px auto; text-align: center; }
+        input { margin: 10px; padding: 5px; width: 100px; }
+        button { padding: 10px 20px; }
+        .result { margin-top: 20px; font-size: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Генератор случайных чисел</h1>
+        <form method="POST">
+            <label for="min_value">Минимум:</label>
+            <input type="text" id="min_value" name="min_value" value="{{ min_value }}">
+            <label for="max_value">Максимум:</label>
+            <input type="text" id="max_value" name="max_value" value="{{ max_value }}">
+            <br>
+            <button type="submit">Сгенерировать</button>
+        </form>
+        <div class="result">
+            {% if random_number is not none %}
+                <p>Сгенерировано число: {{ random_number }}</p>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
