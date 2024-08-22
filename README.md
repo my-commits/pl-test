@@ -19,3 +19,4 @@ One star for each platform:
 - Performance and scalability: 2
 - Security and paradigm support: 3
 - Cross-platform and compatibility: 4
+### Total - 13
