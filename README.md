@@ -24,8 +24,14 @@ A repository with a simple comparison of programming languages.
 - Support of modern technologies: 9
 ### Total - 80
 ## C++
-- Ease of learning and community support: 2
-- Performance and scalability: 4
-- Security and paradigm support: 3
-- Cross-platform and compatibility: 4
-### Total - 13
+- Productivity and efficiency: 10
+- Convenience and speed of development: 6
+- Cross-platform: 8
+- Readability and simplicity of syntax: 5
+- Community and ecosystem: 8
+- Safety: 6
+- Concurrency and multithreading support: 9
+- Compatibility with other languages: 9
+- Stability and maturity: 9
+- Support of modern technologies: 8
+### Total - 78
